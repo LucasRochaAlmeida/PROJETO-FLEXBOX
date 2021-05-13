@@ -64,9 +64,12 @@
 }
 
 .videoSobre-video{
-    flex-grow: 1; /* espande um pouco o elemento */
-    flex-shrink: 2; /* diminui o elemento conforme diminui a tela */
+    flex-grow: 1; /* divide o espaço que sobra com os itens da div */
+    flex-shrink: 2; /* diminui certo elemento mais do que outro */
 }
+/* flex: 0 1 25%
+primeiro argumento: flex-grow, segundo: flex-shrink, terceiro: flex-basis;
+*/
 
 
 /* parte mobile */
